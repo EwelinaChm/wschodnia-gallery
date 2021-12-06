@@ -7,4 +7,17 @@
 body {
     font-family: 'Merriweather Sans', Arial, Helvetica, sans-serif;
     font-weight: 300;
+    color: #ccc;
+    background-color: black;
+}
+
+/* Header */
+
+#logo {
+    font-size: 150%;
+}
+
+h1 {
+    font-family: Oswald, sans-serif;
+    color: white;
 }
