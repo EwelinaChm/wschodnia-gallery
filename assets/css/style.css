@@ -3,21 +3,48 @@
     margin: 0;
     padding: 0;
     border: none;
+    font-size: 10px;
 }
 body {
     font-family: 'Merriweather Sans', Arial, Helvetica, sans-serif;
     font-weight: 300;
     color: #ccc;
     background-color: black;
+    text-align: center;
+    line-height: 1.5;
 }
 
 /* Header */
 
-#logo {
-    font-size: 150%;
+header {
+    width: 100%;
+    margin: 25% 0;
+    padding: 0;
 }
 
-h1 {
+#logo {
+    width: 100%;
+    padding: 1.5rem 0;
+}
+
+#logo img {
+    width: 60%;
+    height: auto;
+}
+
+#logo h1, #logo a {
     font-family: Oswald, sans-serif;
+    font-size: 4rem;
     color: white;
+    text-decoration: none;
+    margin-bottom: 4rem;
+}
+
+#menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    list-style-type: none;
 }
