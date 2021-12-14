@@ -62,4 +62,16 @@ nav {
 
 /* main */
 
+#main {
+    margin: 2rem 0;
+}
 
+figure img {
+    width: 80%;
+}
+
+article p {
+    margin: 2rem;
+    font-size: 1.2rem;
+    text-align: justify;
+}
