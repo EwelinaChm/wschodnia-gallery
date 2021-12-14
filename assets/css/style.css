@@ -66,12 +66,47 @@ nav {
     margin: 2rem 0;
 }
 
+article {
+    background-color: #FEEC03;
+    padding: 2rem 0;
+}
+
 figure img {
     width: 80%;
 }
 
+article figcaption {
+    color: black;
+}
+
 article p {
-    margin: 2rem;
+    margin: 5% 10%;
     font-size: 1.2rem;
     text-align: justify;
+    color: black;
+}
+
+aside {
+    background-color: black;
+    padding: 2rem 0;
+}
+
+footer {
+    background-color: #FEEC03;
+    padding-bottom: 10%;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color: black;
 }
