@@ -17,8 +17,8 @@ body {
 /* Header */
 
 header {
-    width: 100%;
-    height: auto;
+    width: 100vw;
+    height: 100vh;
 }
 
 #logo {
@@ -32,7 +32,7 @@ header {
     margin-top: 30%;
 }
 
-#logo h1, #logo a {
+h1, #logo a {
     font-family: Oswald, sans-serif;
     font-size: 4rem;
     color: white;
@@ -77,13 +77,17 @@ figure img {
 
 article figcaption {
     color: black;
+    font-style: oblique;
+    font-size: 1.2rem;
 }
 
 article p {
     margin: 5% 10%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-align: justify;
     color: black;
+    font-weight: 600;
+    line-height: 1.8;
 }
 
 aside {
@@ -91,9 +95,13 @@ aside {
     padding: 2rem 0;
 }
 
+aside figcaption {
+    font-style: oblique;
+    font-size: 1.2rem;
+}
+
 footer {
     background-color: #FEEC03;
-    padding-bottom: 10%;
 }
 
 .social-networks {
@@ -109,4 +117,14 @@ footer {
     margin: 1%;
     padding: 5%;
     color: black;
+}
+
+@media only screen and (min-width: 550px) {
+    body {
+        display: grid;
+        grid: "h h h"
+              "a a b"
+              "f f f";
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
