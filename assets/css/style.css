@@ -132,4 +132,8 @@ footer {
             'footer footer footer';
         background-color: blueviolet;
     }
+    #menu li {
+        display: inline;
+        margin-right: 10px;
+    }
 }
