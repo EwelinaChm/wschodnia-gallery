@@ -17,8 +17,9 @@ body {
 /* Header */
 
 header {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
+    grid-area: header;
 }
 
 #logo {
@@ -63,7 +64,7 @@ nav {
 /* main */
 
 #main {
-    margin: 2rem 0;
+    grid-area: main;
 }
 
 article {
@@ -93,6 +94,7 @@ article p {
 aside {
     background-color: black;
     padding: 2rem 0;
+    grid-area: aside;
 }
 
 aside figcaption {
@@ -102,6 +104,7 @@ aside figcaption {
 
 footer {
     background-color: #FEEC03;
+    grid-area: footer;
 }
 
 .social-networks {
@@ -122,9 +125,11 @@ footer {
 @media only screen and (min-width: 550px) {
     body {
         display: grid;
-        grid: "h h h"
-              "a a b"
-              "f f f";
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+            'header header header'
+            'main main aside'
+            'footer footer footer';
+        background-color: blueviolet;
     }
 }
