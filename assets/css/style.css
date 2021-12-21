@@ -140,6 +140,27 @@ footer {
     color: black;
 }
 
+section {
+    background-color: #FEEC03;
+    color: black;
+    padding: 2rem 5rem;
+}
+
+.form {
+    font-size: 1.3rem;
+    line-height: 1.8;
+}
+
+.form > h2 {
+    font-size: 1.6rem;
+}
+
+.form > p {
+    font-size: 1.3rem;
+    line-height: 1.8;
+    font-weight: 600;
+}
+
 @media only screen and (min-width: 768px) {
     body {
         display: grid;

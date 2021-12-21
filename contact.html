@@ -34,7 +34,33 @@
         </nav>
     </header>
     <main id="main">
-        
+        <section>
+            <form method="POST" action="https://formdump.codeinstitute.net/" class="form">
+                <h2>Sign up to our newsletter:</h2>
+                <label for="fname">First Name</label>
+                <input type="text" class="text-input" id="fname" name="first_name" required>
+                <label for="lname">Last Name</label>
+                <input type="text" class="text-input" id="lname" name="last_name" required>
+                <label for="email">Email Address</label>
+                <input type="email" class="text-input" id="email" name="email_address" required>
+                
+                <hr>
+                
+                <h2>If you are an artist interested in our Artist-in-Residence programme and want to know more or ask any questions, please fill in this short form:</h2>
+                <p>General area of artistic interest:</p>
+                <label for="visual">Visual arts including performance</label>
+                <input type="radio" id="visual" name="art_category" value="visual" required>
+                <label for="music">Experimental music</label>
+                <input type="radio" id="music" name="art_category" value="music">
+                <label for="new-media">New media</label>
+                <input type="radio" id="new-media" name="art_category" value="new-media">
+                
+                <label for="country">Country of residence:</label>
+                <input type="text" class="text-input" id="country" name="country" required>
+                
+                <input type="submit" class="submit-button" value="Submit">
+            </form>
+        </section> 
     </main>
     
     <footer>
