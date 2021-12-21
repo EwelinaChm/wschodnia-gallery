@@ -130,30 +130,43 @@ footer {
             'header header header'
             'main main aside'
             'footer footer footer';
-        background-color: blueviolet;
     }
 
     header {
-        height: 150px;
+        height: 15%;
+        padding: 2rem;
+    }
+
+    #logo {
+        width: 66%;
+        display: inline;
+        float: left;
     }
         
     #logo-img {
+        width: 50%;
+        display: inline;
+    }
+
+    #logo-img img {
+        width: 100px;
         display: inline;
         float: left;
-        width: 50px;
     }
-    
-    h1, #logo a {
+
+    h1 {
         display: inline;
+        margin: auto;
         font-family: Oswald, sans-serif;
         font-size: 4rem;
         color: white;
         text-decoration: none;
-        margin-bottom: 4rem;
     }
 
     nav {
+        margin: auto;
         float: right;
+        padding: 2rem;
     }
 
     #menu li {
