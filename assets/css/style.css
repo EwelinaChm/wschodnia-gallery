@@ -146,6 +146,11 @@ section {
     padding: 2rem 5rem;
 }
 
+hr {
+    margin: 3rem 0;
+    border-top: 1px solid #676767;
+}
+
 .form {
     font-size: 1.3rem;
     line-height: 1.8;
@@ -159,6 +164,20 @@ section {
     font-size: 1.3rem;
     line-height: 1.8;
     font-weight: 600;
+}
+
+.text-input {
+    width: 50%;
+}
+
+.submit-button {
+    margin-top: 2rem;
+    border: 1px solid #676767;
+    border-radius: 2px;
+    text-align: center;
+    padding: 1rem;
+    background: transparent;
+    font-size: 1.3rem;
 }
 
 @media only screen and (min-width: 768px) {
