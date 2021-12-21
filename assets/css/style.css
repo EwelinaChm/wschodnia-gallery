@@ -71,6 +71,10 @@ article {
     padding: 2rem 0;
 }
 
+figure {
+    padding-top: 2rem;
+}
+
 figure img {
     width: 80%;
 }
@@ -92,7 +96,7 @@ article p {
 
 aside {
     background-color: black;
-    padding: 2rem 0;
+    margin-bottom: 2rem;
     grid-area: aside;
 }
 
@@ -138,6 +142,7 @@ footer {
             'header header header'
             'main main aside'
             'footer footer footer';
+        grid-auto-rows: max-content;
     }
 
     header {
