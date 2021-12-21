@@ -73,6 +73,12 @@ article {
 
 figure {
     padding-top: 2rem;
+    display: table;
+}
+
+figcaption {
+    display: table-caption; 
+    caption-side: bottom;
 }
 
 figure img {
