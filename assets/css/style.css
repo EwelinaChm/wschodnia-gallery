@@ -102,6 +102,15 @@ aside figcaption {
     font-size: 1.2rem;
 }
 
+aside p {
+    margin: 5% 10%;
+    font-size: 1.3rem;
+    text-align: justify;
+    color: white;
+    font-weight: 600;
+    line-height: 1.8;
+}
+
 footer {
     background-color: #FEEC03;
     grid-area: footer;
@@ -172,5 +181,9 @@ footer {
     #menu li {
         display: inline;
         margin-right: 10px;
+    }
+
+    aside {
+        padding: 0;
     }
 }
