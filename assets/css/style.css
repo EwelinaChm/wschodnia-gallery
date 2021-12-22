@@ -73,12 +73,6 @@ article {
 
 figure {
     padding-top: 2rem;
-    display: table;
-}
-
-figcaption {
-    display: table-caption; 
-    caption-side: bottom;
 }
 
 figure img {
@@ -106,9 +100,25 @@ aside {
     grid-area: aside;
 }
 
+aside figure {
+    display: table;
+    padding: 0 2rem;
+}
+
+aside figure img {
+    width: 100%;
+}
+
+aside figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    padding: 0 2rem;
+}
+
 aside figcaption {
     font-style: oblique;
     font-size: 1.2rem;
+    padding-left: 4px;
 }
 
 aside p {
