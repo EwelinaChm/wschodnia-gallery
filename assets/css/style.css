@@ -219,7 +219,7 @@ label {
     }
 
     #logo {
-        width: 66%;
+        width: 60%;
         display: inline;
         float: left;
     }
@@ -239,20 +239,27 @@ label {
         display: inline;
         margin: auto;
         font-family: Oswald, sans-serif;
-        font-size: 4rem;
+        font-size: 3.5rem;
         color: white;
         text-decoration: none;
     }
 
     nav {
-        margin: auto;
+        margin: 0;
         float: right;
         padding: 2rem;
+        display: inline-flex;
     }
 
     #menu li {
         display: inline;
-        margin-right: 10px;
+        margin: 0;
+        padding-right: 1.1rem;
+        /*margin-right: 1.5rem;*/
+    }
+
+    #menu a {
+        font-size: 1.6rem;
     }
 
     aside {
