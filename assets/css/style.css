@@ -152,32 +152,49 @@ hr {
 }
 
 .form {
-    font-size: 1.3rem;
-    line-height: 1.8;
+    box-sizing: border-box;
+    position: relative;
 }
 
 .form > h2 {
     font-size: 1.6rem;
+    line-height: 1.8;
 }
 
 .form > p {
-    font-size: 1.3rem;
-    line-height: 1.8;
+    font-size: 1.4rem;
+    line-height: 3;
     font-weight: 600;
 }
 
 .text-input {
     width: 50%;
+    padding: 1.5rem;
+    margin: 1.5rem;
+    border: 1px solid #676767;
+    border-radius: 4px;
+}
+
+label {
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 1.5rem 1.2rem 0 1.5rem;
 }
 
 .submit-button {
     margin-top: 2rem;
     border: 1px solid #676767;
-    border-radius: 2px;
+    border-radius: 4px;
     text-align: center;
     padding: 1rem;
     background: transparent;
     font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.submit-button:hover {
+    background-color: black;
+    color: #FEEC03;
 }
 
 .book-form > h2 {
@@ -242,3 +259,4 @@ hr {
         padding: 0;
     }
 }
+
