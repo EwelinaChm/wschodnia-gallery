@@ -6,4 +6,11 @@ This is the website of an art gallery in Lodz, Poland called Wschodnia, which is
 
 The website is accessible and designed as mobile-first, using UX/UI principles. 
 
-[Click here to view the live website.](https://#)
+[Click here to view the live website.](https://ewelinachm.github.io/wschodnia-gallery/index.html)
+
+![alt text](assets/images/amiresponsive.png)
+
+# User experience #
+
+## User stories ##
+

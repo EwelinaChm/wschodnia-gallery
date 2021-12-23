@@ -231,6 +231,22 @@ label {
     color: black;
 }
 
+.footer-map {
+    margin-top: 1.5rem;
+    overflow: hidden;
+    padding-bottom: 25%;
+    position:  relative;
+    height:0;
+}
+
+.footer-map iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
 @media only screen and (min-width: 768px) {
     body {
         display: grid;
