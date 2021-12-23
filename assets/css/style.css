@@ -214,6 +214,23 @@ label {
     margin-top: 2rem;
 }
 
+.submit-button-book {
+    margin-top: 2rem;
+    border: 1px solid #676767;
+    border-radius: 4px;
+    text-align: center;
+    padding: 1rem;
+    background: transparent;
+    color: #FEEC03;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.submit-button-book:hover {
+    background-color: #FEEC03;
+    color: black;
+}
+
 @media only screen and (min-width: 768px) {
     body {
         display: grid;
