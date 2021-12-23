@@ -63,11 +63,11 @@ nav {
 /* main */
 
 #main {
+    background-color: #FEEC03;
     grid-area: main;
 }
 
 article {
-    background-color: #FEEC03;
     padding: 2rem 0;
 }
 
@@ -100,6 +100,12 @@ aside {
     grid-area: aside;
 }
 
+aside h2 {
+    font-family: Oswald, sans-serif;
+    font-size: 4rem;
+    color: white;
+}
+
 aside figure {
     display: table;
     padding: 0 2rem;
@@ -112,7 +118,7 @@ aside figure img {
 aside figcaption {
     display: table-caption;
     caption-side: bottom;
-    padding: 0 2rem;
+    padding: 0 2rem 1.5rem 2rem;
 }
 
 aside figcaption {
@@ -247,7 +253,6 @@ label {
 
     h1 {
         display: inline;
-        margin: auto;
         font-family: Oswald, sans-serif;
         font-size: 3.5rem;
         color: white;
@@ -257,7 +262,7 @@ label {
     nav {
         margin: 0;
         float: right;
-        padding: 2rem;
+        padding: 2rem 3rem 2rem 0;
         display: inline-flex;
     }
 
