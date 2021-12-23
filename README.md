@@ -14,3 +14,7 @@ The website is accessible and designed as mobile-first, using UX/UI principles.
 
 ## User stories ##
 
+1. From general audience perspective:
+    1. As an audience member I want to have a general info about the gallery.
+    2. As an audience member I want to know where the gallery is situated.
+    3. As an audience member I want to know what is the current exhibition.
